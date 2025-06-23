@@ -1,131 +1,115 @@
-# 🚀 Hire Ready — AI-Powered Resume Analyzer
+# 💼 Hire Ready – AI-Powered Resume Analyzer
 
-> Upload your resume PDF + target role, and get:
-> - ✨ Tailored improvement suggestions
-> - 📊 Job-fit score
-> - 🧠 50+ technical interview questions
-> - 💬 30+ HR questions
-> - 📘 Learning resources
-
-Built using **React (frontend)** + **Flask (backend)** + **OpenAI API**.
+Hire Ready is an AI-powered resume analysis tool that evaluates your resume for any job role, gives you targeted improvements, generates interview questions, and recommends personalized resources to help you get "Hire Ready"!
 
 ---
 
-## 🌐 Live Demo (optional)
-[👉 Watch the demo](https://youtu.be/your-demo-link) *(if you’re uploading a YouTube walkthrough)*
+## 🔥 Features
+
+✅ Upload your PDF resume  
+✅ Enter your target role (e.g., `Data Analyst`)  
+✅ Get 3–5 personalized suggestions  
+✅ Resume-fit score (0–100%)  
+✅ 50 technical interview questions  
+✅ 30 HR interview questions  
+✅ Handpicked learning resources  
 
 ---
 
-## 📁 Project Structure
+## 📸 Demo Preview
 
-/frontend      # React app
-/backend       # Flask API with OpenAI integration
+### 🏠 Home Page
+![Home](./screenshots/home.png)
 
----
+### 📊 Results Dashboard
+![Results](./screenshots/results.png)
 
-## 🛠️ Setup Instructions
+### 📽️ Live Demo in Action
+![Demo GIF](./screenshots/demo.gif)
 
-### ✅ Prerequisites
-
-- Node.js v16+ & npm
-- Python 3.8+
-- Git
-- OpenAI API Key (GPT-4o-mini or GPT-3.5)
-- `pip`, `venv` (Python package manager & environment)
+> 📁 All screenshots and demo files are stored in the `screenshots/` folder
 
 ---
 
-## ⚙️ Backend Setup (`/backend`)
+## 🛠️ Tech Stack
 
-1. Navigate to the backend folder:
+- **Frontend**: React, Axios, Custom CSS
+- **Backend**: Flask, Python
+- **AI Engine**: OpenAI `gpt-4o-mini`
+- **PDF Parsing**: pdfplumber
+- **Styling**: Custom CSS
+
+---
+
+## 🚀 Getting Started
+
+### 🧠 Prerequisite
+
+- Python 3.x
+- Node.js (v16 or above)
+- npm
+
+### 📦 Clone the Repo
 
 ```bash
+git clone https://github.com/your-username/hire-ready.git
+cd hire-ready
+
+🔙 Backend Setup
+
 cd backend
-
-	2.	Create a virtual environment:
-
 python3 -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
-
-	3.	Install Python dependencies:
-
+source venv/bin/activate
 pip install -r requirements.txt
-
-	4.	Set up your OpenAI API Key in app.py:
-
-OPENAI_API_KEY = "sk-...your key here..."
-
-	5.	Run the Flask server:
-
 python app.py
 
-Server runs at: http://127.0.0.1:5000
-
-⸻
-
-💻 Frontend Setup (/frontend)
-	1.	Open a new terminal and go to the frontend folder:
+💻 Frontend Setup
 
 cd frontend
-
-	2.	Install dependencies:
-
 npm install
-
-	3.	Start the React app:
-
 npm start
 
-App runs at: http://localhost:3000
+The frontend runs on http://localhost:3000
+The backend runs on http://localhost:5000
 
 ⸻
 
-🔐 API Key Security (Important!)
-	•	DO NOT commit your API key to GitHub.
-	•	Add app.py to .gitignore OR store the key in an environment variable and load it using os.environ.
+🔐 API Key Setup
 
-Example (using .env):
+Your OpenAI API key is required.
+In backend/app.py, replace:
 
-import os
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+OPENAI_API_KEY = "your-api-key"
+
+⚠️ Don’t commit your key to public repos!
+
+Use a .env file or environment variables in production.
+
+⸻
+
+🧪 Folder Structure
+
+📁 frontend/   → React frontend
+📁 backend/    → Flask backend
+📁 screenshots/ → Images and demo GIF
 
 
 ⸻
 
-📷 Screenshots
+👨‍💻 Developed By
 
-Upload Page (Home)	Result Dashboard
-	
-
-
-⸻
-
-💡 Features
-	•	Upload your PDF resume
-	•	Enter target job role (e.g., Data Analyst)
-	•	Get:
-	•	✔️ Role-specific suggestions
-	•	📈 Resume-job fit score
-	•	🎯 50 technical questions
-	•	💬 30 HR questions
-	•	📚 Recommended resources
+Jaswanth Majjiga
+🔗 LinkedIn Profile
 
 ⸻
 
-📦 Technologies Used
-	•	Frontend: React.js
-	•	Backend: Python Flask
-	•	LLM API: OpenAI (GPT-4o / GPT-3.5)
-	•	PDF Parsing: pdfplumber
-	•	HTTP: axios, requests
+📜 License
+
+This project is licensed under the MIT License
 
 ⸻
 
-📄 License
+🙌 Acknowledgments
 
-jaswanth majjiga
-
-⸻
-
+Thanks to OpenAI for enabling personalized learning via LLMs.
 
