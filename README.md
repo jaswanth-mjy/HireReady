@@ -124,24 +124,8 @@ Upload Page (Home)	Result Dashboard
 
 📄 License
 
-MIT © YourName
+jaswanth majjiga
 
 ⸻
 
-💬 Contact
 
-Want to connect?
-📬 LinkedIn | 🐦 Twitter | 📧 Email
-
-⸻
-
-⭐ Star this repo if it helped you!
-
----
-
-Let me know:
-- If you want to include Tailwind or CSS setup info.
-- If you're uploading screenshots so I can name them correctly.
-- If you want GitHub Pages or Render deployment instructions included too.
-
-Would you like me to create a `.gitignore` file for you as well?
