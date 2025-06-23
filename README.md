@@ -1,8 +1,3 @@
-Here’s a complete and attractive README.md for your project “Hire Ready” — a Resume Analyzer app using OpenAI’s API. It assumes that you’ve uploaded only the backend/ and frontend/ folders directly in your GitHub repo (no main parent folder).
-
-⸻
-
-
 # 🚀 Hire Ready — AI-Powered Resume Analyzer
 
 > Upload your resume PDF + target role, and get:
