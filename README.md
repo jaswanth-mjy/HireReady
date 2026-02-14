@@ -99,7 +99,6 @@ Use a .env file or environment variables in production.
 👨‍💻 Developed By
 
 Jaswanth Majjiga
-🔗 LinkedIn Profile
 
 ⸻
 
